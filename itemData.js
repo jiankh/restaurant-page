@@ -43,3 +43,5 @@ const pastryData = [
     },
 
 ]
+
+export { pastryData };

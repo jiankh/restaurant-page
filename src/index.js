@@ -5,7 +5,7 @@ import Menu from "./Menu"
 
 Header();
 Nav();
-Menu();
+Home()
 
 const homeButton = document.querySelector(".home-btn");
 const menuButton = document.querySelector(".menu-btn");
@@ -19,4 +19,10 @@ const content = document.querySelector("#content")
 homeButton.addEventListener("click", () => {
     content.innerHTML = "";
     Home();
+});
+
+
+menuButton.addEventListener("click", () => {
+    content.innerHTML = "";
+    Menu();
 });

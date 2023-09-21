@@ -75,3 +75,18 @@ a {
     cursor: pointer;
 }
 
+/* MENU */
+.banner-container {
+    background-image: url(/dist/images/banner1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+

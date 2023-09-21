@@ -1,13 +1,33 @@
+import {pastryData} from './itemData'
+import Card from "./Card"
+
 function Menu() {
-    const main = document.querySelector("#content");
+    const content = document.querySelector("#content");
     const menu = document.createElement("div");
     menu.classList = "menu-container";
 
-    <div class="banner-container">
-        <img class="banner-image" src="images/banner1">
-    </div>   
-        
-    main.appendChild(menu)
+    //Banner and Title 
+    const banner = document.createElement("div")
+    banner.classList.add("banner-container")
+    const menuText = document.createElement("h1")
+    menuText.textContent = "Menu"
+    banner.appendChild(menuText)
+
+    const cardContainer = document.createElement('div'); 
+    cardContainer.classList.add('card-container');
+    console.log("EAEADGFA")
+
+    pastryData.forEach((item) => {
+        const cardHTML = Card(item.title, item.img, item.description, item.price);
+        const cardElement = document.createElement("div");
+        cardElement.innerHTML = cardHTML;
+        cardContainer.appendChild(cardElement);
+        console.log("EAEADGFA")
+    });
+
+    content.appendChild(menu)
+    content.appendChild(cardContainer)
+    
 }
 
 export default Menu

@@ -6,13 +6,13 @@ function Nav() {
     nav.innerHTML = (`
       <ul>
         <li>
-          <a href="#"> Home </a> 
+          <a class="home-btn" href="#"> Home </a> 
         </li>
         <li>
-            <a href="#"> Menu </a> 
+            <a class="menu-btn" href="#"> Menu </a> 
         </li>
         <li>
-            <a href="#"> About Us </a> 
+            <a class="about-btn" href="#"> About Us </a> 
         </li>
         <li>
             <a href="#"> Contact Us </a> 

@@ -5,7 +5,7 @@ function Home() {
 
     home.innerHTML = (`
 
-    <div className="welcome-msg">
+    <div class="welcome-msg">
         <h2>Welcome to Sprigs Bakery!</h2>
         <h3>Where sweet dreams come true</h3>
         <button class="order-now-btn" >Order Now</button>
@@ -13,7 +13,6 @@ function Home() {
 
     `);
         
-    
     main.appendChild(home)
 }
 

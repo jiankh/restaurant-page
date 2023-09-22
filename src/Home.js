@@ -1,3 +1,5 @@
+import Menu from "./Menu"
+
 function Home() {
     const main = document.querySelector("#content");
     const home = document.createElement("div")
@@ -14,6 +16,12 @@ function Home() {
     `);
         
     main.appendChild(home)
+
+    const orderButton = document.querySelector(".order-now");
+    orderButton.addEventListener("click", () => {
+        content.innerHTML = "";
+        Menu();
+    });
 }
 
 export default Home

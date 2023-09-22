@@ -55,7 +55,7 @@ a {
 /* HOME PAGE */
 
 .home-container {
-    background-image: url(/dist/images/scene1.jpg);
+    background-image: url(images/scene1.jpg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ a {
     left: 10%;
 }
 
-.order-now-btn {
+.order-now {
     background-color: var(--light-color);
     padding: 10px;
     width: 100px;
@@ -82,7 +82,7 @@ a {
 
 /* MENU */
 .banner-container {
-    background-image: url(/dist/images/banner1.jpg);
+    background-image: url(images/banner1.jpg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ a {
 }
 
 .about-title {
-    background-image: url(/dist/images/banner1.jpg);
+    background-image: url(images/banner1.jpg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;

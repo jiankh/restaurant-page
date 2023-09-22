@@ -8,7 +8,7 @@ function Home() {
     <div class="welcome-msg">
         <h2>Welcome to Sprigs Bakery!</h2>
         <h3>Where sweet dreams come true</h3>
-        <button class="order-now-btn" >Order Now</button>
+        <button type="button" class="order-now" >Order Now</button>
     </div>
 
     `);

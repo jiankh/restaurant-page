@@ -15,12 +15,10 @@ const orderButton = document.querySelector(".order-now-btn");
 const content = document.querySelector("#content")
 
 
-
 homeButton.addEventListener("click", () => {
     content.innerHTML = "";
     Home();
 });
-
 
 menuButton.addEventListener("click", () => {
     content.innerHTML = "";

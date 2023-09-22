@@ -1,3 +1,11 @@
+import Hazelcupcake from '../dist/images/menu/nutscupcake.jpg'
+import Crinkle from '../dist/images/menu/crinkle.jpg'
+import StrawPuff from '../dist/images/menu/strawberrypuff.jpg'
+import CherryTart from '../dist/images/menu/cherryblossomtart.jpg'
+import CaramelTart from '../dist/images/menu/saltedcaramel.jpg'
+import HoneyPuff from '../dist/images/menu/honeycreampuff.jpg'
+
+
 const pastryData = [
     {
         id:1,

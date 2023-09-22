@@ -90,3 +90,70 @@ a {
     font-size: 1.3rem;
 }
 
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ceb5a7;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.menuItemImage img{
+    object-fit: fill;
+    width: 70%;
+    height: 70%;
+    align-content: center;
+    border-radius: 10%;
+}
+
+.menuItemImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menuItemTitle h2{
+    display: flex;
+    font: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    color: white;
+}
+
+.card p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+    color: white;
+}
+
+.addCart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.addCart button{
+    padding:0.5rem;
+    background-color:#a17c6b;
+    color: white;
+}
+
+.addCart button:hover {
+    cursor: pointer;
+    color:black;
+}

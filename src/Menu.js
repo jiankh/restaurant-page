@@ -15,17 +15,16 @@ function Menu() {
 
     const cardContainer = document.createElement('div'); 
     cardContainer.classList.add('card-container');
-    console.log("EAEADGFA")
+
 
     pastryData.forEach((item) => {
         const cardHTML = Card(item.title, item.img, item.description, item.price);
         const cardElement = document.createElement("div");
         cardElement.innerHTML = cardHTML;
         cardContainer.appendChild(cardElement);
-        console.log("EAEADGFA")
     });
 
-    content.appendChild(menu)
+    content.appendChild(banner)
     content.appendChild(cardContainer)
     
 }
